@@ -2,463 +2,750 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Job & Internship Tracker - Discover opportunities, track applications and manage deadlines.">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <title>Job & Internship Tracker</title>
+    <title>Campus Pulse | Student Community</title>
 
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
+
 
 <body>
 
-    <!-- Header -->
-    <header class="site-header">
 
-        <nav class="navbar">
+    <!-- =================================
+         DECORATIVE BACKGROUND
+    ================================== -->
 
-            <a href="#" class="logo">
-                <span class="logo-box">JT</span>
-                <span>JobTrack</span>
+    <div class="background-shapes">
+
+        <div class="shape shape-red"></div>
+
+        <div class="shape shape-yellow"></div>
+
+        <div class="shape shape-blue"></div>
+
+        <div class="shape shape-green"></div>
+
+    </div>
+
+
+
+    <!-- =================================
+         HEADER
+    ================================== -->
+
+    <header class="navbar">
+
+
+        <!-- Logo -->
+
+        <a
+            href="#home"
+            class="logo"
+        >
+
+            <div class="logo-mark">
+                CP
+            </div>
+
+            <div class="logo-text">
+
+                <strong>
+                    CAMPUS
+                </strong>
+
+                <span>
+                    PULSE
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <!-- Navigation -->
+
+        <nav>
+
+            <a
+                href="#home"
+                class="active"
+            >
+                Home
             </a>
 
-            <ul class="nav-links">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#jobs">Jobs</a></li>
-                <li><a href="#internships">Internships</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
+            <a href="#students">
+                Students
+            </a>
 
-            <a href="#" class="login-btn">Login</a>
+            <a href="#about">
+                About
+            </a>
 
         </nav>
+
+
+        <!-- Status -->
+
+        <div class="campus-status">
+
+            <span></span>
+
+            Campus Live
+
+        </div>
 
     </header>
 
 
-    <!-- Main Content -->
+
     <main>
 
-        <!-- Hero Section -->
-        <section class="hero">
+
+        <!-- =================================
+             HERO
+        ================================== -->
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+
+            <!-- Left -->
 
             <div class="hero-content">
 
-                <span class="hero-badge">Your Career Command Center</span>
+
+                <div class="hero-label">
+
+                    <span>
+                        ✦
+                    </span>
+
+                    WELCOME TO CAMPUS PULSE
+
+                </div>
+
 
                 <h1>
-                    Find Your
-                    <span>Next Opportunity</span>
+
+                    Meet the minds
+
+                    <span>
+                        shaping tomorrow.
+                    </span>
+
                 </h1>
 
+
                 <p>
-                    Discover jobs and internships, organize your applications,
-                    and stay ahead of every career deadline.
+
+                    A vibrant student community where
+                    ideas meet people, connections become
+                    opportunities, and every student has
+                    a story to tell.
+
                 </p>
+
 
                 <div class="hero-buttons">
-                    <a href="#jobs" class="primary-btn">Explore Jobs</a>
-                    <a href="#internships" class="secondary-btn">Find Internships</a>
+
+                    <a
+                        href="#students"
+                        class="primary-btn"
+                    >
+
+                        Explore Students
+
+                        <span>
+                            →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#about"
+                        class="secondary-btn"
+                    >
+
+                        Discover More
+
+                    </a>
+
                 </div>
 
-                <div class="hero-benefits">
-                    <span>✓ Discover Opportunities</span>
-                    <span>✓ Track Applications</span>
-                    <span>✓ Manage Deadlines</span>
+
+                <!-- Mini stats -->
+
+                <div class="hero-stats">
+
+
+                    <div class="hero-stat">
+
+                        <strong id="heroCount">
+                            0
+                        </strong>
+
+                        <span>
+                            Students
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat-line"></div>
+
+
+                    <div class="hero-stat">
+
+                        <strong>
+                            24/7
+                        </strong>
+
+                        <span>
+                            Ideas
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat-line"></div>
+
+
+                    <div class="hero-stat">
+
+                        <strong>
+                            ∞
+                        </strong>
+
+                        <span>
+                            Possibilities
+                        </span>
+
+                    </div>
+
                 </div>
 
             </div>
 
 
-            <!-- Dashboard Preview -->
-            <aside class="dashboard-card">
 
-                <div class="dashboard-header">
-                    <div>
-                        <p>Application Overview</p>
-                        <h2>My Applications</h2>
-                    </div>
+            <!-- =================================
+                 HERO VISUAL
+            ================================== -->
 
-                    <span class="dashboard-date">October 2026</span>
-                </div>
+            <div class="hero-visual">
 
 
-                <div class="dashboard-stats">
-
-                    <article class="mini-card">
-                        <span class="mini-icon purple">01</span>
-                        <small>Applied</small>
-                        <strong>12</strong>
-                    </article>
-
-                    <article class="mini-card">
-                        <span class="mini-icon blue">02</span>
-                        <small>Interviews</small>
-                        <strong>04</strong>
-                    </article>
-
-                    <article class="mini-card">
-                        <span class="mini-icon yellow">03</span>
-                        <small>Selected</small>
-                        <strong>02</strong>
-                    </article>
+                <div class="visual-circle circle-red">
 
                 </div>
 
 
-                <div class="application-progress">
-
-                    <div class="progress-title">
-                        <strong>Application Progress</strong>
-                        <span>70%</span>
-                    </div>
-
-                    <div class="progress-bar">
-                        <span></span>
-                    </div>
+                <div class="visual-circle circle-yellow">
 
                 </div>
 
 
-                <article class="application-item">
+                <div class="visual-circle circle-blue">
 
-                    <div class="company-logo">G</div>
+                </div>
 
-                    <div class="company-details">
-                        <h3>Software Developer Intern</h3>
-                        <p>Google</p>
+
+                <!-- Main Card -->
+
+                <div class="hero-card">
+
+
+                    <div class="hero-card-top">
+
+                        <span>
+                            CAMPUS
+                        </span>
+
+                        <span>
+                            2026
+                        </span>
+
                     </div>
 
-                    <span class="status">Interview</span>
 
-                </article>
+                    <div class="hero-avatar">
 
-            </aside>
+                        <span>
+                            A
+                        </span>
 
-        </section>
-
-
-        <!-- Statistics -->
-        <section class="statistics">
-
-            <article>
-                <strong>500+</strong>
-                <span>Opportunities</span>
-            </article>
-
-            <article>
-                <strong>120+</strong>
-                <span>Companies</span>
-            </article>
-
-            <article>
-                <strong>1,200+</strong>
-                <span>Applications Tracked</span>
-            </article>
-
-            <article>
-                <strong>95%</strong>
-                <span>Deadline Success</span>
-            </article>
-
-        </section>
+                    </div>
 
 
-        <!-- Features -->
-        <section class="section features-section" id="about">
+                    <h3>
+                        Your story
+                        starts here.
+                    </h3>
 
-            <div class="section-heading">
-                <span>FEATURES</span>
-                <h2>Everything You Need to Manage Your Career</h2>
-                <p>
-                    Keep your job and internship search organized from one simple place.
-                </p>
-            </div>
-
-
-            <div class="features-grid">
-
-                <article class="feature-card">
-                    <div class="feature-icon purple">01</div>
-
-                    <h3>Track Applications</h3>
 
                     <p>
-                        Keep all your job and internship applications organized
-                        and easily monitor their progress.
+                        Learn • Connect • Create
                     </p>
 
-                    <a href="#">Learn More →</a>
-                </article>
+
+                    <div class="hero-card-bottom">
+
+                        <span>
+                            STUDENT
+                        </span>
+
+                        <span>
+                            #001
+                        </span>
+
+                    </div>
+
+                </div>
 
 
-                <article class="feature-card">
-                    <div class="feature-icon blue">02</div>
+                <!-- Floating badges -->
 
-                    <h3>Find Opportunities</h3>
+                <div class="floating-badge badge-red">
 
-                    <p>
-                        Discover relevant jobs and internships that match
-                        your career goals and skills.
-                    </p>
+                    <span>
+                        ✦
+                    </span>
 
-                    <a href="#">Explore →</a>
-                </article>
+                    <div>
+
+                        <small>
+                            COMMUNITY
+                        </small>
+
+                        <strong>
+                            Connected
+                        </strong>
+
+                    </div>
+
+                </div>
 
 
-                <article class="feature-card">
-                    <div class="feature-icon yellow">03</div>
+                <div class="floating-badge badge-blue">
 
-                    <h3>Manage Deadlines</h3>
+                    <span>
+                        +
+                    </span>
 
-                    <p>
-                        Stay organized and never miss an important application
-                        or interview deadline.
-                    </p>
+                    <div>
 
-                    <a href="#">Stay Organized →</a>
-                </article>
+                        <small>
+                            NETWORK
+                        </small>
+
+                        <strong>
+                            Growing
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="floating-badge badge-yellow">
+
+                    <span>
+                        ★
+                    </span>
+
+                    <div>
+
+                        <small>
+                            ENERGY
+                        </small>
+
+                        <strong>
+                            Unlimited
+                        </strong>
+
+                    </div>
+
+                </div>
 
             </div>
 
         </section>
 
 
-        <!-- How It Works -->
-        <section class="section how-section">
 
-            <div class="section-heading">
-                <span>HOW IT WORKS</span>
-                <h2>Your Career Journey in 3 Simple Steps</h2>
-                <p>
-                    Start discovering opportunities and manage your applications with ease.
-                </p>
-            </div>
+        <!-- =================================
+             STUDENT DIRECTORY
+        ================================== -->
 
-
-            <div class="steps">
-
-                <article class="step">
-                    <div class="step-number">01</div>
-
-                    <div>
-                        <h3>Find an Opportunity</h3>
-                        <p>
-                            Search and discover jobs or internships that
-                            match your interests and skills.
-                        </p>
-                    </div>
-                </article>
+        <section
+            class="students-section"
+            id="students"
+        >
 
 
-                <article class="step">
-                    <div class="step-number">02</div>
+            <!-- Heading -->
 
-                    <div>
-                        <h3>Apply for the Opportunity</h3>
-                        <p>
-                            Apply to the opportunities you are interested in
-                            and save the important application details.
-                        </p>
-                    </div>
-                </article>
+            <div class="section-header">
 
 
-                <article class="step">
-                    <div class="step-number">03</div>
-
-                    <div>
-                        <h3>Track Your Application</h3>
-                        <p>
-                            Monitor your application status and keep track
-                            of interviews and deadlines.
-                        </p>
-                    </div>
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- Jobs -->
-        <section class="section opportunities-section" id="jobs">
-
-            <div class="section-top">
                 <div>
-                    <span>OPPORTUNITIES</span>
-                    <h2>Featured Jobs</h2>
+
+                    <div class="section-label">
+
+                        <span></span>
+
+                        OUR COMMUNITY
+
+                    </div>
+
+
+                    <h2>
+
+                        Meet the
+
+                        <span>
+                            campus.
+                        </span>
+
+                    </h2>
+
+
+                    <p>
+
+                        Add students and build your
+                        own campus community.
+
+                    </p>
+
                 </div>
 
-                <a href="#">View All Jobs →</a>
+
+                <!-- Counter -->
+
+                <div class="big-counter">
+
+                    <strong id="studentCount">
+                        00
+                    </strong>
+
+                    <span>
+                        STUDENTS
+                    </span>
+
+                </div>
+
             </div>
 
 
-            <div class="opportunity-grid">
 
-                <article class="opportunity-card">
+            <!-- =================================
+                 ADD STUDENT PANEL
+            ================================== -->
 
-                    <div class="opportunity-top">
-                        <div class="company-logo microsoft">M</div>
+            <div class="add-panel">
 
-                        <span class="job-type">Full Time</span>
+
+                <div class="add-info">
+
+
+                    <div class="add-icon">
+                        +
                     </div>
 
-                    <h3>Software Developer</h3>
 
-                    <p class="company-name">Microsoft</p>
+                    <div>
 
-                    <div class="job-info">
-                        <span>Chennai</span>
-                        <span>₹8 - 12 LPA</span>
+                        <span>
+                            BUILD YOUR COMMUNITY
+                        </span>
+
+                        <h3>
+                            Add three students
+                        </h3>
+
+                        <p>
+                            Separate each name with a comma.
+                        </p>
+
                     </div>
 
-                    <div class="skills">
-                        <span>Java</span>
-                        <span>Spring Boot</span>
-                        <span>SQL</span>
+                </div>
+
+
+
+                <div class="input-area">
+
+
+                    <input
+                        type="text"
+                        id="studentInput"
+                        placeholder="Anitha, Rahul, Priya"
+                    >
+
+
+                    <button
+                        id="addStudentBtn"
+                    >
+
+                        ADD STUDENTS
+
+                        <span>
+                            →
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Message -->
+
+            <div
+                id="message"
+                class="message"
+            ></div>
+
+
+
+            <!-- =================================
+                 STUDENT CARDS
+            ================================== -->
+
+            <div
+                id="studentList"
+                class="student-grid"
+            >
+
+
+                <!-- Empty State -->
+
+                <div
+                    id="emptyState"
+                    class="empty-state"
+                >
+
+                    <div class="empty-icon">
+
+                        <span>
+                            +
+                        </span>
+
                     </div>
 
-                    <div class="opportunity-bottom">
-                        <span>Deadline: 15 Oct</span>
-                        <a href="#">Apply</a>
-                    </div>
 
-                </article>
+                    <h3>
+                        Your campus is waiting.
+                    </h3>
 
 
-                <article class="opportunity-card">
+                    <p>
 
-                    <div class="opportunity-top">
-                        <div class="company-logo google">G</div>
+                        Add your first three students
+                        and start building your community.
 
-                        <span class="job-type internship">Internship</span>
-                    </div>
+                    </p>
 
-                    <h3>Frontend Developer Intern</h3>
-
-                    <p class="company-name">Google</p>
-
-                    <div class="job-info">
-                        <span>Bangalore</span>
-                        <span>₹40K / month</span>
-                    </div>
-
-                    <div class="skills">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                    <div class="opportunity-bottom">
-                        <span>Deadline: 20 Oct</span>
-                        <a href="#">Apply</a>
-                    </div>
-
-                </article>
-
-
-                <article class="opportunity-card">
-
-                    <div class="opportunity-top">
-                        <div class="company-logo accent">A</div>
-
-                        <span class="job-type">Full Time</span>
-                    </div>
-
-                    <h3>Java Developer</h3>
-
-                    <p class="company-name">Accenture</p>
-
-                    <div class="job-info">
-                        <span>Chennai</span>
-                        <span>₹6 - 9 LPA</span>
-                    </div>
-
-                    <div class="skills">
-                        <span>Java</span>
-                        <span>SQL</span>
-                        <span>REST API</span>
-                    </div>
-
-                    <div class="opportunity-bottom">
-                        <span>Deadline: 25 Oct</span>
-                        <a href="#">Apply</a>
-                    </div>
-
-                </article>
+                </div>
 
             </div>
 
         </section>
 
 
-        <!-- Final CTA -->
-        <section class="cta">
 
-            <div>
-                <span>READY TO GET STARTED?</span>
+        <!-- =================================
+             ABOUT
+        ================================== -->
+
+        <section
+            class="about-section"
+            id="about"
+        >
+
+
+            <div class="about-number">
+                01
+            </div>
+
+
+            <div class="about-content">
+
+
+                <div class="section-label">
+
+                    <span></span>
+
+                    THE IDEA
+
+                </div>
+
 
                 <h2>
-                    Take Control of Your Career Journey
+
+                    People make
+
+                    <span>
+                        campus.
+                    </span>
+
                 </h2>
 
-                <p>
-                    Discover opportunities, track your applications,
-                    and stay organized throughout your placement journey.
-                </p>
-            </div>
 
-            <a href="#" class="cta-button">Start Tracking</a>
+                <p>
+
+                    Campus Pulse transforms a simple
+                    student directory into an interactive
+                    community experience. Every student
+                    you add is dynamically transformed into
+                    a beautiful profile card using JavaScript.
+
+                </p>
+
+
+                <div class="feature-list">
+
+
+                    <div class="feature-item">
+
+                        <div class="feature-number">
+                            01
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                CONNECT
+                            </strong>
+
+                            <span>
+                                Bring students together.
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature-item">
+
+                        <div class="feature-number">
+                            02
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                CREATE
+                            </strong>
+
+                            <span>
+                                Build dynamic experiences.
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature-item">
+
+                        <div class="feature-number">
+                            03
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                GROW
+                            </strong>
+
+                            <span>
+                                Turn connections into opportunities.
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </section>
 
     </main>
 
 
-    <!-- Footer -->
-    <footer class="footer" id="internships">
 
-        <div class="footer-content">
+    <!-- =================================
+         FOOTER
+    ================================== -->
 
-            <div>
-                <a href="#" class="footer-logo">JobTrack</a>
+    <footer>
 
-                <p>
-                    Your simple career command center for jobs,
-                    internships and applications.
-                </p>
+
+        <div class="footer-brand">
+
+            <div class="logo-mark">
+                CP
             </div>
 
-
-            <div>
-                <h3>Explore</h3>
-
-                <a href="#jobs">Jobs</a>
-                <a href="#internships">Internships</a>
-                <a href="#about">About</a>
-            </div>
-
-
-            <div>
-                <h3>Career</h3>
-
-                <a href="#">Track Applications</a>
-                <a href="#">Manage Deadlines</a>
-                <a href="#">Profile</a>
-            </div>
+            <strong>
+                CAMPUS PULSE
+            </strong>
 
         </div>
 
 
-        <div class="footer-bottom">
-            <p>© 2026 JobTrack. Built for students and job seekers.</p>
-        </div>
+        <p>
+            Built with HTML • CSS • JavaScript
+        </p>
+
+
+        <span>
+            © 2026 Campus Pulse
+        </span>
 
     </footer>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="intro.js"></script>
 
 </body>
 
